@@ -36,7 +36,7 @@ export default function Faq() {
 const faqdata = [
   {
     question: "Do you use smart contracts and is it vetted?",
-    answer: "Yes, we do use smart contracts. Especially if it involves cross-chain stable coin to USDCa transfer as an intermediate account. We will outsource the contracts soon.",
+    answer: "Yes, we do use smart contracts. Especially if it involves cross-chain stable coin to USDCa transfer as an intermediate account. We will opensource the contracts soon.",
   },
   {
     question: "Can I use Algosub to accept other network coins?",
