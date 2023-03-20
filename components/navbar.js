@@ -14,7 +14,7 @@ export default function Navbar() {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <img
                         src="/img/logo.png"
@@ -25,7 +25,7 @@ export default function Navbar() {
                       />
                     </span>
                     <span>XLM Shop</span>
-                  </a>
+                  </span>
                 </Link>
 
                 <Disclosure.Button
@@ -57,20 +57,18 @@ export default function Navbar() {
                   <>
                     {navigation.map((item, index) => (
                       <Link key={index} href={`#${item.toLowerCase()}`}>
-                        <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                        <span className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                           {item}
-                        </a>
+                        </span>
                       </Link>
                     ))}
-                    <Link href="/">
-                      <a
-                        data-formkit-toggle="d170eeec72"
-                        href="https://expert-composer-6803.ck.page/d170eeec72"
-                        className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
-                      >
-                        Subscribe
-                      </a>
-                    </Link>
+                    <a
+                      data-formkit-toggle="d170eeec72"
+                      href="https://expert-composer-6803.ck.page/d170eeec72"
+                      className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
+                    >
+                      Subscribe
+                    </a>
                   </>
                 </Disclosure.Panel>
               </div>
@@ -84,9 +82,9 @@ export default function Navbar() {
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link href={`#${menu.toLowerCase()}`}>
-                  <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
+                  <span className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
                     {menu}
-                  </a>
+                  </span>
                 </Link>
               </li>
             ))}
@@ -94,15 +92,13 @@ export default function Navbar() {
         </div>
 
         <div className="hidden mr-3 space-x-3 lg:flex nav__item">
-          <Link href="/">
-            <a
-              className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
-              data-formkit-toggle="d170eeec72"
-              href="https://expert-composer-6803.ck.page/d170eeec72"
-            >
-              Subscribe
-            </a>
-          </Link>
+          <a
+            className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
+            data-formkit-toggle="d170eeec72"
+            href="https://expert-composer-6803.ck.page/d170eeec72"
+          >
+            Subscribe
+          </a>
 
           <ThemeChanger />
         </div>
