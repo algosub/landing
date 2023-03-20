@@ -13,39 +13,43 @@ export default function Testimonials() {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              The instant <Mark>USDC & Algos</Mark> accepting method is just amazing. I dont have to share my wallet number or QR code with any of my clients. Just click and pay.
+              Every time my customers pay with{" "}
+              <Mark>
+                cards, we lose 4% of that to card handlers and Shopify.
+              </Mark>{" "}
+              With XLM Shop this cost can be saved. We love it here.
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Vamshi Vangapally"
-              title="Founder & CEO Beartax"
+              name="Vamshi"
+              title="Founder Berry Cosmetics"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              One of the most <Mark>promising and intuitive</Mark> payments for global and cross-border companies on crypto.
+              Our store data is transaprent just because of XLM shop
+              <Mark>
+                and we have investors will to put money in us via XLM
+              </Mark>{" "}
             </p>
 
-            <Avatar
-              image={userTwoImg}
-              name="Sanjeev Rao"
-              title="Founder Terra Leap Wallet"
-            />
+            <Avatar image={userTwoImg} name="S Rao" />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-            The <Mark>subscription service </Mark> for Algorand and USDCa.
+              XLM Shop will help Stellar reach to a new set of merchants nad
+              users
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Algofamily"
-              title="Algorand community expert"
+              name="XLM Community"
+              title="XLM community expert"
             />
           </div>
         </div>

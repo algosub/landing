@@ -1,7 +1,7 @@
 {
-  "name": "Algosub-template",
+  "name": "XLM Shop-template",
   "version": "0.1.0",
-  "description": "Algosub Landing Page Template",
+  "description": "XLM Shop Landing Page Template",
   "private": true,
   "scripts": {
     "dev": "next dev",

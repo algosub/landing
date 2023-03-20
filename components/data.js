@@ -5,36 +5,31 @@ import {
   DeviceMobileIcon,
   AdjustmentsIcon,
   SunIcon,
-  CurrencyDollarIcon
+  CurrencyDollarIcon,
 } from "@heroicons/react/outline";
 
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Why Algo subscriptions?",
-  desc: "Raise a single or subscription inovice to any payables globally with a single click.",
+  title: "Why XLM Shop?",
+  desc: "XLM Shop brings all the benefits on web3 to Shopify",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Recurring Payments With Crypto",
-      desc: "Our smart contract generated invoices come with invoice reminders and customer notifications.",
-      icon: <ChartSquareBarIcon />,
-    },
-    {
-      title: "Gasless transactions",
-      desc: "You and your customers pay no gas fees to send/receive money.",
-      icon: <EmojiHappyIcon />,
-    },
-    {
-      title: "Algos and USDC support",
-      desc: "Create invoices to get paid in Algos or cross-chain USDC stable coin",
+      title: "Coupons against Crypto",
+      desc: "Accept commission free payments by customers during checkout via XLM",
       icon: <CurrencyDollarIcon />,
     },
     {
-      title: "One click setup",
-      desc: "Receive your custom hosted payments page, one-click checkout button, dashboard & more.",
-      icon: <CursorClickIcon />,
+      title: "DeFi investments",
+      desc: "Borrow P2P finances against invoices and store performance via XLM from investors anywhere.",
+      icon: <CurrencyDollarIcon />,
+    },
+    {
+      title: "Post Purchase NFTs",
+      desc: "Create and reward tangible NFTs to their customers after a purchase to increase loyalty and gamification via XL ecommerce.",
+      icon: <EmojiHappyIcon />,
     },
   ],
 };

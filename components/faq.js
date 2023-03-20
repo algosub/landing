@@ -36,18 +36,17 @@ export default function Faq() {
 const faqdata = [
   {
     question: "Do you use smart contracts and is it vetted?",
-    answer: "Yes, we do use smart contracts. Especially if it involves cross-chain stable coin to USDCa transfer as an intermediate account. We will opensource the contracts soon.",
+    answer:
+      "Yes. Our DeFi funding and investments for merchants work on Soroban smart contracts",
   },
   {
-    question: "Can I use Algosub to accept other network coins?",
-    answer: "Sorry, but we currently do not support this. Algorand, is a blockchain thats built for future of finance with no gas or tx fees.",
-  },
-  {
-    question: "How does subscriptions work with Algosub?",
-    answer: "Algosub implements on-chain CRON like scheduler with off chain reminders and notifications.",
+    question: "Can I use XLM Shop to accept other network coins?",
+    answer:
+      "You can accept all coins on Stellar including USDC. But we currently do not support other networks.",
   },
   {
     question: "When do you launch?",
-    answer: "We are on a hiring spree recently and have some way to go before we have a V1 ready.",
+    answer:
+      "We are already live as a private beta on Shopify. We will launch on public network by the next quarter",
   },
 ];

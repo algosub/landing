@@ -3,7 +3,7 @@ import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
-  const navigation = [ "Subscriptions", "Developers", "Testimonials", "FAQ"];
+  const navigation = ["Features", "Video", "Testimonials", "FAQ"];
 
   return (
     <div className="w-full">
@@ -24,17 +24,19 @@ export default function Navbar() {
                         className="w-8"
                       />
                     </span>
-                    <span>AlgoSub</span>
+                    <span>XLM Shop</span>
                   </a>
                 </Link>
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
-                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700">
+                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+                >
                   <svg
                     className="w-6 h-6 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24">
+                    viewBox="0 0 24 24"
+                  >
                     {open && (
                       <path
                         fillRule="evenodd"
@@ -54,15 +56,18 @@ export default function Navbar() {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <Link key={index}  href={`#${item.toLowerCase()}`}>
+                      <Link key={index} href={`#${item.toLowerCase()}`}>
                         <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                           {item}
                         </a>
                       </Link>
                     ))}
                     <Link href="/">
-                      <a  data-formkit-toggle="d170eeec72"
-                href="https://expert-composer-6803.ck.page/d170eeec72" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                      <a
+                        data-formkit-toggle="d170eeec72"
+                        href="https://expert-composer-6803.ck.page/d170eeec72"
+                        className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
+                      >
                         Subscribe
                       </a>
                     </Link>
@@ -90,9 +95,11 @@ export default function Navbar() {
 
         <div className="hidden mr-3 space-x-3 lg:flex nav__item">
           <Link href="/">
-            <a className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5" 
-            data-formkit-toggle="d170eeec72"
-                href="https://expert-composer-6803.ck.page/d170eeec72">
+            <a
+              className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
+              data-formkit-toggle="d170eeec72"
+              href="https://expert-composer-6803.ck.page/d170eeec72"
+            >
               Subscribe
             </a>
           </Link>

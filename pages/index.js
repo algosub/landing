@@ -27,10 +27,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Algosub - Subscriptions and payments provider on Algorand</title>
+        <title>XLM SHOP</title>
         <meta
           name="description"
-          content="Algosub makes it simple to accept subscription and payments for your services and products."
+          content=" All in one XLM app for Shopify merchants for payments and
+          finances."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -38,28 +39,33 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Algosub benefits"
-        title="Future of finance to accept subscriptions & payments globally">
-        Algosub is powered by Algorand, A Pure Proof-of-Stake foundational blockchain designed for the future of finance and payments.
+        pretitle="XLM SHOP benefits"
+        title="Future of finance for e-commerce"
+      >
+        XLM Shop is powered by Stellar, an open network for storing and moving
+        money which allows merchants to accept USDC and other payment method on
+        XLM
       </SectionTitle>
       <Benefits data={benefitOne} />
-      <div id="developers"><Benefits imgPos="right" data={benefitTwo} /></div>
-      {/* <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don't forget to add one. Just like this.
-      </SectionTitle>
-      <Video /> */}
+      <div id="video">
+        {" "}
+        <SectionTitle
+          pretitle="XLM Shop App on Shopify"
+          title="Checkout our V1 App Video"
+        ></SectionTitle>
+        <Video />
+      </div>
+
       <div id="testimonials">
         <SectionTitle
           pretitle="Testimonials"
-          title="Here's what our early users have to say">
-          We have a long way to go but our progress and enthusiasm is high with support and encouragement from the Algo community and our users.
+          title="Here's what our early users have to say"
+        >
+          We have a long way to go but our progress and enthusiasm is high with
+          support and encouragement from the XLM community and our users.
         </SectionTitle>
         <Testimonials />
-        </div>
+      </div>
       <div id="faq">
         <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
           Answers to most frequently asked community questions.
